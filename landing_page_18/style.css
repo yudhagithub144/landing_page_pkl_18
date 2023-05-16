@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400&display=swap');
+body{
+    font-family:  'Josefin Sans', sans-serif;
+}
+.banner{
+    background-image: url(img/Img.svg);
+    background-size: cover;
+    height: 100vh;
+}
+.navbar-brand{
+    font-size: 20px;
+    color: green;
+    font-weight: 700;
+}
+.navbar .btn{
+    margin: 2px;
+    border-radius: 0;
+    width: 100px;
+}
+.banner .text{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.banner .text h1{
+   color: white;
+   font-size: 60px;
+}
+.banner .text p{
+    color: white;
+    font-size: 25px;
+}
+.banner .text button{
+    width: 150px;
+    border-radius: 0;
+    font-size: 13px;
+}
+.sec-1 {
+    height: 200vh;
+}
+.sec-1 .row{
+    margin-top: 50px;
+}
+.sec-1 .card{
+    border-radius: 0;
+}
+.sec-1 img{
+    border-radius: 0;
+}
+.sec-1 button{
+    margin-top: 80px;
+    border-radius: 0;
+}
+
+.sec-2{
+    height: 100vh;
+    background-color: #999999;
+}
+
+.sec-2 .text{
+    display: flex;
+    margin-top: 150px;
+}
+
+.sec-2 .logo{
+    width: 100px;
+    padding: 10px;
+}
+.sec-2 h1{
+    padding: 10px;
+}
+.sec-2 p{
+    padding: 10px;
+}
+
+.sec-3{
+    height: 100vh;
+}
+.sec-3 .row{
+    padding: 70px;
+}
+.sec-3 .row .text{
+    padding: 30px;
+    margin-top: 40px;
+}
+.sec-3 img{
+    width: 100%;
+}
+.sec-3 button{
+    border-radius: 0;
+}
+footer{
+    height: 85vh;
+}
+footer .col-md-3{
+    margin-top: 50px;
+}
+footer .text{
+    margin-top: 80px;
+}
+footer .logo{
+    margin-left: 800px;
+    position: relative;
+    top: -50px;
+}
